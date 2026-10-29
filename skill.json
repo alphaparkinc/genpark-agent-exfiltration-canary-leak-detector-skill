@@ -1,0 +1,15 @@
+{
+  "name": "genpark-agent-exfiltration-canary-leak-detector-skill",
+  "version": "1.0.0",
+  "description": "Agent exfiltration canary leak detector with HMAC token generation, entropy analysis, and outgoing outbound channel interception.",
+  "tools": [
+    {
+      "name": "generate_canary",
+      "description": "Generate an HMAC-authenticated canary token."
+    },
+    {
+      "name": "scan_outgoing_traffic",
+      "description": "Scan outbound payloads for canary leaks and unauthorized data exfiltration."
+    }
+  ]
+}
